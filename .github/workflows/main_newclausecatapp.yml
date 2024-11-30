@@ -26,5 +26,5 @@ jobs:
       - name: Deploy to Azure App Service
         uses: azure/webapps-deploy@v3
         with:
-          app-name: NewClauseCatApp  # Replace with your app's name
+          app-name: NewClauseCatApp
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
